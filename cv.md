@@ -13,7 +13,7 @@ Linkedin: https://www.linkedin.com/in/e-g1gor/
 
 ### Code example
 
-```JavaScript
+---js
 /** 
  * Human readable duration format
  * https://www.codewars.com/kata/52742f58faf5485cae000b9a
@@ -139,5 +139,4 @@ function formatDuration(seconds) {
   const formatter = new TimeFormatter(seconds);
   return formatter.humanReadable;
 }
-
-```
+---
